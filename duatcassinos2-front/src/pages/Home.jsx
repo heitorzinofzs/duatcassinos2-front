@@ -52,7 +52,7 @@ const Home = () => {
       icon: '🔢',
       path: '/game/number',
       color: 'from-blue-600 to-cyan-600',
-      disabled: true
+      disabled: false 
     },
     {
       id: 'sync',
