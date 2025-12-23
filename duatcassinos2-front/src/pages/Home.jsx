@@ -51,18 +51,19 @@ const Home = () => {
       description: 'Adivinhe o número em 5 tentativas',
       icon: '🔢',
       path: '/game/number',
-      color: 'from-blue-600 to-cyan-600',
+      color: 'from-amber-600 to-orange-600',
       disabled: false 
     },
     {
-      id: 'sync',
-      name: 'Sincronia Cósmica',
-      description: 'Clique no momento exato',
-      icon: '⏱️',
-      path: '/game/sync',
-      color: 'from-amber-600 to-orange-600',
-      disabled: true
-    }
+  id: 'sync',
+  name: 'Ciclo Lunar',
+  description: 'Aposte na fase correta da lua',
+  icon: '🌙',
+  path: '/game/sync',
+  color: 'from-indigo-600 to-purple-600',
+  disabled: true
+}
+
   ];
 
   return (
